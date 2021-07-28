@@ -1,0 +1,104 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'de' Physical Memory: 32698 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hazex/Documents/GitHub/Unity-Horror-Game/Horror-Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56736
+Successfully changed project path to: C:/Users/hazex/Documents/GitHub/Unity-Horror-Game/Horror-Game
+C:/Users/hazex/Documents/GitHub/Unity-Horror-Game/Horror-Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hazex/Documents/GitHub/Unity-Horror-Game/Horror-Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001890 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 19.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 1.543900 ms (FindLiveObjects: 0.132600 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.326500 ms  DeleteObjects: 0.056200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004804 seconds
+  Import took 0.006388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.926045 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(eb8ba1b7f8f0f1642b39028dd358f775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(eb8ba1b7f8f0f1642b39028dd358f775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725114c807c39520e8dad2bf690d781d') in 0.002813 seconds
+  Import took 0.004482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(eb8ba1b7f8f0f1642b39028dd358f775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(eb8ba1b7f8f0f1642b39028dd358f775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725114c807c39520e8dad2bf690d781d') in 0.002399 seconds
+  Import took 0.003775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.384964 seconds.
+  path: Assets/Objects/BierKrug.fbx
+  artifactKey: Guid(87dfb89862be1be4ba6cef08a0bb1a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/BierKrug.fbx using Guid(87dfb89862be1be4ba6cef08a0bb1a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa35da6089a31677304074ba8525e479') in 0.134225 seconds
+  Import took 0.136046 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
