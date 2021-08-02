@@ -57,33 +57,55 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
 
-        if (Input.GetButtonUp("Jump") && isGrounded)
+        if (isGrounded)
         {
             anim.SetBool("isJumping", false);
+            isJumping = false;
         }
 
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             wPressed = true;
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             aPressed = true;
         }
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.D))
         {
             dPressed = true;
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
             sPressed = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded && isSneaking == false && direction.magnitude >= 0.1f && (wPressed == true || aPressed == true || sPressed == true || dPressed == true))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded && isSneaking == false && direction.magnitude >= 0.1f && wPressed == true)
+        {
+            walkSpeed = sprintSpeed;
+            isSprinting = true;
+            anim.SetBool("isRunning", true);
+            isWalking = false;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded && isSneaking == false && direction.magnitude >= 0.1f && aPressed == true)
+        {
+            walkSpeed = sprintSpeed;
+            isSprinting = true;
+            anim.SetBool("isRunning", true);
+            isWalking = false;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded && isSneaking == false && direction.magnitude >= 0.1f && sPressed == true )
+        {
+            walkSpeed = sprintSpeed;
+            isSprinting = true;
+            anim.SetBool("isRunning", true);
+            isWalking = false;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded && isSneaking == false && direction.magnitude >= 0.1f && dPressed == true)
         {
             walkSpeed = sprintSpeed;
             isSprinting = true;
