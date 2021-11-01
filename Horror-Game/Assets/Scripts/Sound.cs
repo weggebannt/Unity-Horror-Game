@@ -2,7 +2,7 @@ using UnityEngine.Audio;
 using UnityEngine;
 
 [System.Serializable]
-public class Sound
+public class Sound : MonoBehaviour
 {
     //Definiert Sound
     public string name;
